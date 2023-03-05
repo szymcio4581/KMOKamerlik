@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KMO Kamerlik - Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+<nav>
+    <div class="left">
+        <h1 class="logo">KMO Kamerlik</h1>
+    </div>
+    <div class="right">
+        <p class="navButton" onclick="window.location.href = 'index.html'">Strona Głowna</p>
+        <p class="navButton inactive">Coming Soon</p>
+        <p class="navButton inactive">Coming Soon</p>
+        <p class="navButton" onclick="window.location.href = 'gallery.html'">Galeria</p>
+    </div>
+</nav>
+<div class="background">
+    <div class="backgroundBlur"></div>
+</div>
+<div class="main okok">
+    <div class="galleryBox">
+        <a id="galleryHref" href="gallery.html">Galeria ></a>
+        <h1 style="margin: 0">Kamerostat</h1>
+        <div class="actualGallery">
+            <img class="image" src="assets/images/Kamerostat/picture1.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture2.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture3.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture4.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture5.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture6.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture7.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture8.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture9.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture10.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture11.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture12.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture13.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Kamerostat/picture14.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+        </div>
+    </div>
+</div>
+<div class="fullImage" id="fullImageBox" onclick="fullSizeClose()">
+    <img id="imageFull" src="assets/images/domek.jpg" alt="obrazek domku">
+    <span id="closeImg" onclick="fullSizeClose()">x</span>
+    <div class="okok"></div>
+</div>
+<footer style="position: absolute !important; bottom: 0;">
+    <p>Stronę wykonał: Łukasz Szymura</p>
+</footer>
+<div id="loader">
+    <div class="center">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</div>
+</body>
+<script src="assets/js/galleryFullImg.js"></script>
+<script src="assets/js/loader.js"></script>
+</html>

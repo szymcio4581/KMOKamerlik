@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KMO Kamerlik - Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <style>
+        .actualGallery{
+            grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+        }
+        .image{
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="left">
+        <h1 class="logo">KMO Kamerlik</h1>
+    </div>
+    <div class="right">
+        <p class="navButton" onclick="window.location.href = 'index.html'">Strona Głowna</p>
+        <p class="navButton inactive">Coming Soon</p>
+        <p class="navButton inactive">Coming Soon</p>
+        <p class="navButton" onclick="window.location.href = 'gallery.html'">Galeria</p>
+    </div>
+</nav>
+<div class="background">
+    <div class="backgroundBlur"></div>
+</div>
+<div class="main okok">
+    <div class="galleryBox">
+        <h1 style="margin: 0">Galeria</h1>
+        <div class="actualGallery">
+            <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
+                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
+                <p class="jis">Kamerostat</p>
+            </div>
+            <div class="imageBox" onclick="window.location.href = 'gokart.html'">
+                <img class="image" src="assets/images/elektrogokart/picture39.jpg" alt="obrazek domku">
+                <p class="jis">Elektrogokart</p>
+            </div>
+            <div class="imageBox" onclick="window.location.href = 'ul.html'">
+                <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture8.jpg" alt="obrazek domku">
+                <p class="jis">Sanatorium dla pszczół</p>
+            </div>
+            <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
+                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
+                <p class="jis">Kamerostat</p>
+            </div>
+            <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
+                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
+                <p class="jis">Kamerostat</p>
+            </div>
+            <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
+                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
+                <p class="jis">Kamerostat</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="fullImage" id="fullImageBox" onclick="fullSizeClose()">
+    <img id="imageFull" src="assets/images/domek.jpg" alt="obrazek domku">
+    <span id="closeImg" onclick="fullSizeClose()">x</span>
+    <div class="okok"></div>
+</div>
+<footer style="position: absolute !important; bottom: 0;">
+    <p>Stronę wykonał: Łukasz Szymura</p>
+</footer>
+<div id="loader">
+    <div class="center">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</div>
+</body>
+<script src="assets/js/galleryFullImg.js"></script>
+<script src="assets/js/loader.js"></script>
+</html>

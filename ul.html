@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KMO Kamerlik - Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+<nav>
+    <div class="left">
+        <h1 class="logo">KMO Kamerlik</h1>
+    </div>
+    <div class="right">
+        <p class="navButton" onclick="window.location.href = 'index.html'">Strona Głowna</p>
+        <p class="navButton" onclick="">O nas</p>
+        <p class="navButton inactive">Coming Soon</p>
+        <p class="navButton" onclick="window.location.href = 'gallery.html'">Galeria</p>
+    </div>
+</nav>
+<div class="background">
+    <div class="backgroundBlur"></div>
+</div>
+<div class="main okok">
+    <div class="galleryBox">
+        <a id="galleryHref" href="gallery.html">Galeria ></a>
+        <h1 style="margin: 0">Sanatorium Dla Pszczół</h1>
+        <div class="actualGallery">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture1.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture2.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture3.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture4.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture5.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture6.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture7.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture8.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture9.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture10.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture11.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture11.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture12.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture13.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture14.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture15.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture16.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture17.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture18.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture19.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture20.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture21.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture22.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+            <img class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture23.jpg" alt="obrazek domku" onclick="fullSize(this.src)">
+        </div>
+    </div>
+</div>
+<div class="fullImage" id="fullImageBox" onclick="fullSizeClose()">
+    <img id="imageFull" alt="obrazek domku">
+    <span id="closeImg" onclick="fullSizeClose()">x</span>
+    <div class="okok"></div>
+</div>
+<footer>
+    <p>Stronę wykonał: Łukasz Szymura</p>
+</footer>
+<div id="loader">
+    <div class="center">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</div>
+</body>
+<script src="assets/js/galleryFullImg.js"></script>
+<script src="assets/js/loader.js"></script>
+</html>
