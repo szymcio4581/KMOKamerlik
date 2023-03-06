@@ -15,8 +15,8 @@
     </div>
     <div class="right">
         <p class="navButton" onclick="window.location.href = 'index.html'">Strona Głowna</p>
-        <p class="navButton" onclick="document.getElementById('').scrollIntoView({behavior: 'smooth'});">O nas</p>
-        <p class="navButton inactive">Coming Soon</p>
+        <p class="navButton" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});">O nas</p>
+        <p class="navButton" onclick="document.getElementById('swiper').scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});">Nasze Projekty</p>
         <p class="navButton" onclick="window.location.href = 'gallery.html'">Galeria</p>
     </div>
 </nav>
@@ -25,9 +25,9 @@
     <div class="welcomeBlur"></div>
 </div>
 <div class="main">
-    <div class="about">
-        <div class="infoHeader">
-            <h1>O nas</h1>
+    <div id="about" class="about">
+        <div style="margin-top: 0!important;" class="infoHeader">
+            <h1 style="margin: 0">O nas</h1>
         </div>
         <div class="aboutText">
             <p>Nasz KMO „Kamelik” działa w Zespole Szkół w Czerwionce-Leszczynach (woj. śląskie)
@@ -55,7 +55,7 @@
             </ul>
         </div>
     </div>
-    <div class="swiperBox">
+    <div id="swiper" class="swiperBox">
         <div class="infoHeader">
             <h1><span style="text-decoration: underline; text-decoration-color: #007aff">Nas</span>ze Projekty</h1>
         </div>
@@ -83,12 +83,17 @@
                     </div>
                     <div class="swiperText">
                         <h1>Sanatorium dla pszczół</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad assumenda, consequuntur, cum enim error facilis illo inventore iusto libero mollitia obcaecati omnis praesentium rem repellat rerum sapiente sunt veritatis.</p>
+                        <p>Głównym celem projektu jest wykonanie stale monitorowanego ula,
+                            w którym będziemy stale monitorować i dostosowywać warunki tak,
+                            aby były jak najlepsze dla pszczół. Bedziemy to robić za pomocą
+                            czujników zamontowanych w środku lodówki, ponieważ to właśnie stara
+                            lodówka posłużyła jako baza do stwożenia ulu.
+                        </p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="swiperImg">
-                        <img src="assets/images/ciekawe.jpg" alt="">
+                        <img style="height: 400px" src="assets/images/rower.png" alt="">
                     </div>
                     <div class="swiperText">
                         <h1>Teleroweroładowacz</h1>
@@ -98,7 +103,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="swiperImg">
-                        <img src="assets/images/ciekawe.jpg" alt="">
+                        <img style="height: 400px" src="assets/images/szyb.png" alt="">
                     </div>
                     <div class="swiperText">
                         <h1>ZeSzyChtuLa</h1>
@@ -107,7 +112,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="swiperImg">
-                        <img src="assets/images/ciekawe.jpg" alt="">
+                        <img style="height: 400px" src="assets/images/gkrt.png" alt="">
                     </div>
                     <div class="swiperText">
                         <h1>Elektrogokart</h1>

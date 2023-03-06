@@ -137,7 +137,8 @@
 }
 .swiperBox{
     margin: 0 5%;
-    width: 90%  ;
+    width: 90%;
+    scroll-margin: 200px;
 }
 .swiper {
     width: 100%;
@@ -169,8 +170,12 @@
 }
 .about{
     width: 100%;
+    border: 3px solid #007aff;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 70px;
+    scroll-margin: 200px;
 }
-
 .aboutText{
     width: 100%;
     text-align: justify;
@@ -178,4 +183,3 @@
 ul{
     list-style-type: square;
 }
-koham gotować
