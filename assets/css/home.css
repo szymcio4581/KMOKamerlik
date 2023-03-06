@@ -167,3 +167,15 @@
     align-items: center;
     padding-right: 40px;
 }
+.about{
+    width: 100%;
+}
+
+.aboutText{
+    width: 100%;
+    text-align: justify;
+}
+ul{
+    list-style-type: square;
+}
+koham gotować

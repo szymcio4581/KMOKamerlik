@@ -94,6 +94,10 @@ footer{
     animation: wave 1s linear infinite;
     border-radius: 20px;
 }
+.aboutHeader h1 {
+    text-align: center;
+    font-size: 2rem;
+}
 .wave:nth-child(2) {
     animation-delay: 0.1s;
 }
