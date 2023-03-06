@@ -11,7 +11,17 @@
             grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
         }
         .image{
-            width: 100% !important;
+            width: 100%;
+            height: 146px;
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+        }
+        @media (min-width: 900px) {
+            footer{
+                position: relative !important;
+            }
         }
     </style>
 </head>
@@ -35,30 +45,33 @@
         <h1 style="margin: 0">Galeria</h1>
         <div class="actualGallery">
             <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
-                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
+                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg">
                 <p class="jis">Kamerostat</p>
             </div>
             <div class="imageBox" onclick="window.location.href = 'gokart.html'">
-                <img class="image" src="assets/images/elektrogokart/picture39.jpg" alt="obrazek domku">
+                <img class="image" src="assets/images/okokok.jpg">
                 <p class="jis">Elektrogokart</p>
             </div>
             <div class="imageBox" onclick="window.location.href = 'ul.html'">
-                <img style="height: 171px" class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture8.jpg" alt="obrazek domku">
-                <p class="jis">Sanatorium dla pszczół</p>
+                <img style="width: 85%" class="image" src="assets/images/Sanatorium%20dla%20pszczół/picture8.jpg">
+                <p  style="font-size: 20px" class="jis">Sanatorium dla pszczół</p>
             </div>
             <div class="imageBox" onclick="window.location.href = 'teleladowacz.html'">
-                <img class="image" src="assets/images/teleroweroładowacz/okok.png" alt="obrazek domku">
+                <img class="image" src="assets/images/teleroweroładowacz/okok.png">
                 <p style="font-size: 24px" class="jis">TeleRoweroŁadowacz</p>
             </div>
-            <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
-                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
-                <p class="jis">Kamerostat</p>
+            <div class="imageBox" onclick="window.location.href = 'zeszychtula.html'">
+                <img class="image" src="assets/images/ZeSzyChtuLa/picture48.jpg">
+                <p class="jis">ZeSzyChtuLa</p>
             </div>
-            <div class="imageBox" onclick="window.location.href = 'kamerostat.html'">
-                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg" alt="obrazek domku">
-                <p class="jis">Kamerostat</p>
-            </div>
-
+<!--            <div class="imageBox" onclick="window.location.href = 'konkursy.html'">-->
+<!--                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg">-->
+<!--                <p class="jis">Konkursy</p>-->
+<!--            </div>-->
+<!--            <div class="imageBox" onclick="window.location.href = 'wyjazdy.html'">-->
+<!--                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg">-->
+<!--                <p class="jis">Wyjazdy</p>-->
+<!--            </div>-->
         </div>
     </div>
 </div>
@@ -67,7 +80,7 @@
     <span id="closeImg" onclick="fullSizeClose()">x</span>
     <div class="okok"></div>
 </div>
-<footer style="position: absolute !important; bottom: 0;">
+<footer>
     <p>Stronę wykonał: Łukasz Szymura</p>
 </footer>
 <div id="loader">

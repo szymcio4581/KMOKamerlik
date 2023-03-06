@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
+    <style>
+        footer{
+            position: absolute;
+            bottom: 0;
+        }
+        @media (min-width: 900px) {
+            footer{
+                position: relative;
+            }
+        }
+    </style>
 </head>
 <body>
 <nav>
@@ -49,7 +60,7 @@
     <span id="closeImg" onclick="fullSizeClose()">x</span>
     <div class="okok"></div>
 </div>
-<footer style="position: absolute !important; bottom: 0;">
+<footer>
     <p>Stronę wykonał: Łukasz Szymura</p>
 </footer>
 <div id="loader">
