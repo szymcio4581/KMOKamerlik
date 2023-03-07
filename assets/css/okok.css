@@ -1,0 +1,16 @@
+.actualGallery{
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+}
+.image{
+    width: 100%;
+    height: 146px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width: 1500px) {
+    footer{
+        position: static;
+    }
+}

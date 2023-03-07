@@ -6,24 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
-    <style>
-        .actualGallery{
-            grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-        }
-        .image{
-            width: 100%;
-            height: 146px;
-        }
-        footer{
-            position: absolute;
-            bottom: 0;
-        }
-        @media (min-width: 900px) {
-            footer{
-                position: relative !important;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/okok.css">
 </head>
 <body>
 <nav>
@@ -31,10 +14,10 @@
         <h1 class="logo">KMO Kamerlik</h1>
     </div>
     <div class="right">
-        <p class="navButton" onclick="window.location.href = 'index.html'">Strona Głowna</p>
-        <p class="navButton" onclick="window.location.href = 'index.html#about'">O nas</p>
-        <p class="navButton" onclick="window.location.href = 'index.html#swiper'">Nasze Projekty</p>
-        <p class="navButton" onclick="window.location.href = 'gallery.html'">Galeria</p>
+        <p class="navButton" onclick="window.location.href = './'">Strona Głowna</p>
+        <p class="navButton" onclick="window.location.href = './#about'">O nas</p>
+        <p class="navButton" onclick="window.location.href = './#swiper'">Nasze Projekty</p>
+        <p class="navButton">Galeria</p>
     </div>
 </nav>
 <div class="background">
@@ -64,14 +47,14 @@
                 <img class="image" src="assets/images/ZeSzyChtuLa/picture48.jpg">
                 <p class="jis">ZeSzyChtuLa</p>
             </div>
-<!--            <div class="imageBox" onclick="window.location.href = 'konkursy.html'">-->
-<!--                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg">-->
-<!--                <p class="jis">Konkursy</p>-->
-<!--            </div>-->
-<!--            <div class="imageBox" onclick="window.location.href = 'wyjazdy.html'">-->
-<!--                <img class="image" src="assets/images/Kamerostat/Kamerostat.jpg">-->
-<!--                <p class="jis">Wyjazdy</p>-->
-<!--            </div>-->
+            <div class="imageBox" onclick="window.location.href = 'konkursy.html'">
+                <img class="image" src="assets/images/konkursy/Eksperyment%20łańcuchowy%202017/picture24.jpg">
+                <p class="jis">Konkursy</p>
+            </div>
+            <div class="imageBox" onclick="window.location.href = 'wyjazdy.html'">
+                <img class="image" src="assets/images/wyjazdy/EC%201%20Łódź%202019/picture39.jpg">
+                <p class="jis">Wyjazdy</p>
+            </div>
         </div>
     </div>
 </div>
